@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+   transition: ease 0.8s all;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+    background-image: url(./assets/images/GoogleAdSense.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+
+}
+
+footer  {
+  text-align: right;
+  color: rgb(224, 20, 64);
+    font-family: 'Poppins', cursive;
+}
+.we {
+  color: rgb(49, 50, 51);
+}
+.phone {
+  color: rgb(49, 50, 51);
+  text-align: left; 
+  
+}
+
+hr {
+  border: 2px solid rgb(62, 194, 150);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  color: rgb(26, 27, 27);
+  text-align: center; 
+  font-size: 12px;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.card img:hover {
+  transform: scale3d(1.1, 1.1, 1 );
+  transition: 1s ease-out;
+  border-radius: 10px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: rgb(8, 167, 159);
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+
+  }
+
+  .phone {
+  color: rgb(49, 50, 51);
+  text-align: center; 
+  
+}
+
+.foote {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
